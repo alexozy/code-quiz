@@ -18,7 +18,7 @@ header {
     margin-right: auto;
     width: 20em
 }
-#btn{
+#btn, #btn-begin, #btn-next{
     border-radius: 8px;
     color: white;
     background-color: #8E6EA1;

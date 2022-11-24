@@ -1,9 +1,8 @@
 
 var timeEL = document.querySelector("#timer");
 
-//add start button (timer has to start when you hit the button)
+
 function startQuiz() {
-  // when button clicked, run startQuiz
   console.log("Quiz Started");
   document.getElementById("start-screen").classList.add("hidden");
   document.getElementById("question-section").classList.remove("hidden");
@@ -25,7 +24,7 @@ function startTime() {
 
 // cycle to next question
 
-var btn = document.getElementById("btn");
+var btn = document.getElementById("btn-begin");
 //dom modify text
 btn.textContent = "startQuiz";
 //dom eventListener
@@ -35,7 +34,7 @@ btn.addEventListener("click", startQuiz); //you could call firstQuestion inside 
 //     start
 // })
 
-// array for questions & answers
+
 // when you click on one of the answers, it needs to show num increasing by 1
 var quizQuestions = [
   {
@@ -76,6 +75,11 @@ var quizQuestions = [
       return this.answers[2];
     },
   },
+  {
+    questions: "Will you make it through this bootcamp?",
+    answers: [ "yes", "no", "maybe", "I hope so!",
+    correct: "yes"
+},
 ];
 var num = 0;
 function showQuestion() {
@@ -85,32 +89,5 @@ function showQuestion() {
     const element = quizQuestions[1].answers;
     console.log(element)
     //use createElement to create the ul/li dynamically
+    
   }
-}
-  //this will display the specific question
-//   var questionDiv = document.getElementById("question");
-//   console.log(question)
-//   questionDiv.textContent = q.question;
-//   var ans = document.querySelectorAll("answer");
-  
-//   console.log(ans)
-//   ans.forEach(function (element, index) {
-//     element.textContent = q.question[index];
-
-//     element.addEventListener("click", function () {
-//       if (q.yesAnswer == index) {
-//         console.log("correct!");
-//       } else {
-//         return false;
-//       }
-//     });
-//   });
-
-//   q.textContent = quizQuestions[num].question;
-// }
-
-// timer needs to deduct time for wrong answer
-// timer
-
-
-// high scores code
