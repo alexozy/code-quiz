@@ -6,11 +6,11 @@ This project we were tasked with creating a quiz code using what we've learned w
 ## Application Mock-Up
 This image shows the code quiz's appearance:
 
-![Code Quiz Appearance.](./Assets/_Users_ozyalex_gt-bootcamp_homework_password_gen_index.html.png)
+![Code Quiz Appearance.](./Assets/images/_Users_ozyalex_gt-bootcamp_homework_code-quiz_index.html.png)
 
 ### Contact Me
 If you would like to contact me you can reach me at [alexanoz@outlook.com](alexanoz@outlook.com)
 
 ### Link to Live Application
-* Click this [link](https://www.owasp.org/index.php/Password_special_characters) to access the quiz code live.
+* Click this [link]() to access the quiz code live.
 ---
