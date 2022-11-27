@@ -12,5 +12,5 @@ This image shows the code quiz's appearance:
 If you would like to contact me you can reach me at [alexanoz@outlook.com](alexanoz@outlook.com)
 
 ### Link to Live Application
-* Click this [link]() to access the quiz code live.
+* Click this [link](https://alexozy.github.io/code-quiz/) to access the quiz code live.
 ---
